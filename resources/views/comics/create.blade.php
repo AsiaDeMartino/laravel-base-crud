@@ -5,11 +5,11 @@
 <div class="create">
     <h1>Add a new comic</h1>
     <div class="container">
-        <form action="{{ route('comics.store') }}" method="POST">
-
+        <form action="{{ route('comics.store') }}" method="post">
+        @csrf
             <div>
                 <label for="title">Title</label>
-                <input type="text" name="tite" id="title" placeholder="Insert Comic's Title">
+                <input type="text" name="title" id="title" placeholder="Insert Comic's Title">
             </div>
 
             <div>
