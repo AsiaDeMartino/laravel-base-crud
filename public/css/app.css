@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.main a {
+  display: contents;
+}
+
 .main .card_wrapper {
   padding: 50px 200px;
   display: flex;
@@ -17,8 +21,14 @@
   gap: 15px;
 }
 
-.main .card_wrapper a {
-  display: contents;
+.main .card_wrapper button {
+  width: 80px;
+}
+
+.main .card_wrapper .flex {
+  display: flex;
+  flex-direction: column;
+  width: 14.2857142857%;
 }
 
 .main button {
@@ -42,8 +52,8 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 14.2857142857%;
   height: 250px;
+  width: 100%;
 }
 
 .card figure {

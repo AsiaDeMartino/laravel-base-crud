@@ -6,6 +6,10 @@
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
+    
+    a{
+      display: contents;
+    }
 
     .card_wrapper{
       padding: 50px 200px;
@@ -15,8 +19,14 @@
       flex-wrap: wrap;
       gap: 15px;
 
-      a{
-        display: contents;
+      button{
+        width: 80px;
+      }
+
+      .flex{
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 7);
       }
     }
 
@@ -42,8 +52,8 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: calc(100% / 7);
     height: 250px;
+    width: 100%;
 
     figure{
 
