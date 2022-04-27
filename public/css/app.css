@@ -25,10 +25,16 @@
   width: 80px;
 }
 
-.main .card_wrapper .flex {
+.main .card_wrapper .flex_column {
   display: flex;
   flex-direction: column;
   width: 14.2857142857%;
+}
+
+.main .card_wrapper .flex_column .flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .main button {
@@ -39,7 +45,6 @@
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 40px;
 }
 
 .main #current {

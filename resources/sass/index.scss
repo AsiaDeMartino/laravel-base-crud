@@ -23,10 +23,16 @@
         width: 80px;
       }
 
-      .flex{
+      .flex_column{
         display: flex;
         flex-direction: column;
         width: calc(100% / 7);
+
+        .flex{
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 10px;
+        }
       }
     }
 
@@ -38,7 +44,6 @@
       color: white;
       text-transform: uppercase;
       font-weight: 600;
-      margin: 40px;
     }
 
     #current{
