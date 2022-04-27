@@ -3,10 +3,10 @@
 @section('Main')
 
 <div class="main">
-    <button id="current">current series</button>
+    <button id="current">add comic</button>
     <div class="card_wrapper">
         @foreach ($comics as $key=>$item)
-        <a href="/details/{{ $key }}">
+        <a href="/comics/{{ $key + 1 }}">
             <div class="card">
                 <figure>
                     <img src={{ $item["thumb"] }} alt="">

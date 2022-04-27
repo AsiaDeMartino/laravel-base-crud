@@ -64,6 +64,137 @@
   text-transform: uppercase;
 }
 
+.mainDetails {
+  padding-top: 200px;
+}
+
+.mainDetails .blue {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(14, 105, 245);
+  padding: 0 200px;
+  margin-top: 100px;
+}
+
+.mainDetails .blue figure {
+  transform: translate(0%, -80%);
+  position: absolute;
+  height: 294px;
+  width: 194px;
+  border: 1px solid white;
+}
+
+.mainDetails .blue figure img {
+  position: absolute;
+}
+
+.mainDetails .blue figure .thumb {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.mainDetails .blue figure .comic,
+.mainDetails .blue figure .gallery {
+  background-color: rgb(19, 152, 208);
+  color: white;
+  text-align: center;
+}
+
+.mainDetails .blue figure .gallery {
+  width: 100%;
+}
+
+.mainDetails .blue figure .comic {
+  width: 50%;
+}
+
+.mainDetails .content {
+  padding: 50px 200px;
+  display: flex;
+}
+
+.mainDetails .content .col-9 {
+  width: 70%;
+  padding-right: 50px;
+}
+
+.mainDetails .content .col-9 h1 {
+  text-transform: uppercase;
+  color: rgb(4, 47, 75);
+  padding-bottom: 30px;
+}
+
+.mainDetails .content .col-9 .price {
+  color: white;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.mainDetails .content .col-9 .price div {
+  background-color: rgb(72, 176, 71);
+  height: 45px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(42, 102, 43);
+}
+
+.mainDetails .content .col-9 .price .triangolo {
+  font-size: 10px;
+}
+
+.mainDetails .content .col-9 .price .col-8 {
+  width: 60%;
+  justify-content: space-between;
+  border-right: 1px solid rgb(42, 102, 43);
+}
+
+.mainDetails .content .col-9 .price .col-8 .green {
+  color: rgb(153, 230, 88);
+}
+
+.mainDetails .content .col-9 .price .col-4 {
+  width: 40%;
+  justify-content: center;
+}
+
+.mainDetails .content .col-3 {
+  width: 30%;
+}
+
+.mainDetails .content .col-3 .info {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+.mainDetails .content .col-3 .info:last-child {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 5px;
+}
+
+.mainDetails .content .col-3 .info span {
+  width: 40%;
+}
+
+.mainDetails .content .col-3 .info p {
+  width: 60%;
+}
+
+.mainDetails .content .col-3 .info a {
+  color: rgb(54, 149, 208);
+}
+
+.mainDetails .content h4 {
+  color: rgb(80, 80, 80);
+}
+
 * {
   margin: 0;
   padding: 0;

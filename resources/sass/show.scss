@@ -1,0 +1,130 @@
+.mainDetails{
+    padding-top: 200px;
+
+    .blue{
+      height: 80px;
+      width: 100%;
+      background-color: rgb(14,105,245);
+      padding: 0 200px;
+      margin-top: 100px;
+
+      figure{
+        transform: translate(0%,-80%);
+        position: absolute;
+        height: 294px;
+        width: 194px;
+        border: 1px solid white;
+  
+        img{
+          position: absolute;
+        }
+  
+        .thumb{
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+        }
+  
+        .comic,.gallery{
+          background-color: rgb(19,152,208);
+          color: white;
+          text-align: center;
+        }
+  
+        .gallery{
+          width: 100%;
+        }
+  
+        .comic{
+          width: 50%;
+        }
+      }
+    
+    }
+  
+    .content{
+      padding: 50px 200px;
+      display: flex;
+  
+      .col-9{
+        width: 70%;
+        padding-right: 50px;
+  
+        h1{
+          text-transform: uppercase;
+          color: rgb(4,47,75);
+          padding-bottom: 30px;
+        }
+  
+        .price{
+          color: white;
+          display: flex;
+          padding-bottom: 20px;
+  
+          div{
+            background-color: rgb(72,176,71);
+            height: 45px;
+            padding: 0 15px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgb(42,102,43);
+          }
+  
+          .triangolo{
+            font-size: 10px;
+          }
+  
+          .col-8{
+            width: 60%;
+            justify-content: space-between;
+            border-right: 1px solid rgb(42,102,43);
+  
+            .green{
+              color: rgb(153,230,88);
+            }
+          }
+  
+          .col-4{
+            width: 40%;
+            justify-content: center;
+          }
+        }
+      }
+  
+      .col-3{
+        width: 30%;
+
+        .info{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid lightgray;
+            margin-top: 20px;
+            padding-top: 5px;
+    
+            &:last-child{
+              border-bottom: 1px solid lightgrey;
+              padding-bottom: 5px;
+            }
+    
+            span{
+              width: 40%;
+            }
+    
+            p{
+              width: 60%;
+            }
+    
+            a{
+              color: rgb(54,149,208);
+            }
+          }
+      }
+  
+      h4{
+        color: rgb(80, 80, 80);
+      }
+    }
+}
