@@ -1,0 +1,55 @@
+.create{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(13,106,247);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+
+    h1{
+        text-transform: uppercase;
+    }
+
+    form{
+        display: contents;
+    }
+
+    .container{
+        height: 80%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+        padding: 50px;
+        font-size: 20px;
+        gap: 5%;
+        
+        div{
+            width: 400px;
+            display: flex;
+            
+            label{
+                width: 200px;
+            }
+        }
+
+        #add{
+            width: 80px;
+            height: 50px;
+            background-color: rgb(13,106,247);
+            color: white;
+            border: none;
+            font-size: 25px;
+            border-radius: 10px;
+        }
+    }
+
+    #description{
+        width: 200px;
+        height: 100px;
+    }
+}

@@ -3,10 +3,12 @@
 @section('Main')
 
 <div class="main">
-    <button id="current">add comic</button>
+    <a href="{{ route('comics.create') }}">
+        <button id="current">add comic</button>
+    </a>
     <div class="card_wrapper">
         @foreach ($comics as $key=>$item)
-        <a href="/comics/{{ $key + 1 }}">
+        <a href="{{ route('comics.show',$key + 1) }}">
             <div class="card">
                 <figure>
                     <img src={{ $item["thumb"] }} alt="">
