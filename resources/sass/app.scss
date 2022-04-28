@@ -1,3 +1,13 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
 @import "/resources/sass/index.scss";
 @import "/resources/sass/show.scss";
 @import "/resources/sass/create.scss";
@@ -11,8 +21,6 @@
 
 body{
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 a{
