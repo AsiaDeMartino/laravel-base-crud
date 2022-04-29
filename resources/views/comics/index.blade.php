@@ -10,10 +10,10 @@
         @foreach ($comics as $key=>$item)
         <div class="flex_column">
             <div class="flex">
-                <a href="{{ route('comics.edit',$key +1) }}">
+                <a href="{{ route('comics.edit',$item->id) }}">
                     <button class="button">Edit</button>
                 </a>
-                <form action="{{ route('comics.destroy',$key +1) }}" method="post">
+                <form action="{{ route('comics.destroy',$item->id) }}" method="post">
                     @csrf
                     @method('delete')
     
@@ -24,7 +24,7 @@
                 </form>
             </div>
                 <div class="card">
-                    <a href="{{ route('comics.show',$key + 1) }}">
+                    <a href="{{ route('comics.show',$item->id) }}">
                         <figure>
                             <img src={{ $item["thumb"] }} alt="">
                         </figure>
